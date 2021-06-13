@@ -1,31 +1,9 @@
 # 0x0B. Implement a design with bootstrap
 
-|![icon folder](https://img.icons8.com/fluent-systems-filled/20/000000/opened-folder.png) Specializations > Web Stack programming > Front-end |
+|![icon folder](https://img.icons8.com/fluent-systems-filled/20/216aff/opened-folder.png) Specializations > Web Stack programming > Front-end |
 |-------|
-|![icon user](https://img.icons8.com/fluent-systems-filled/20/000000/user.png) By Jose Vallejo, Full-Stack Student at Holberton School|
-|![icon linkedin](https://img.icons8.com/nolan/64/linkedin.png) ![](https://img.icons8.com/nolan/64/github.png)|
+|![icon user](https://img.icons8.com/fluent-systems-filled/20/216aff/user.png) By Jose Vallejo, Full-Stack Student at Holberton School|
+|![icon linkedin](https://img.icons8.com/nolan/64/linkedin.png) ![icon github](https://img.icons8.com/nolan/64/github.png)|
+In this project, you will implement 3 web pages with Bootstrap. You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that you learned previously.
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<div class="table-responsive container-fluid">
-  <table class="table">
-    <tr>
-      <td>
-        Specializations > Web Stack programming > Front-end
-      </td>
-    </tr>
-    <tr>
-      <td class="d-flex justify-content-between">
-        <img src="https://img.icons8.com/fluent-systems-filled/20/000000/user.png"/>
-        <p>By Jose Vallejo, Full-Stack Student at Holberton School</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div>
-          <img src="https://img.icons8.com/nolan/64/linkedin.png"/>
-          <img src="https://img.icons8.com/nolan/64/github.png"/>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
