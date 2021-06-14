@@ -1,0 +1,26 @@
+@import "shared/reset-styles";
+@import "shared/variables";
+
+.hero-wrap {
+  height: 1383px;
+  background: #071629 url("../images/pic_1.jpg") no-repeat 65% 0;
+  background-size: 200%;
+}
+
+/* 768px view break point
+  ============================= */
+@media screen and (min-width: 768px) {
+  .hero-wrap {
+    height: 1093px;
+    background-size: cover;
+
+  }
+}
+/* 1440px view break point
+  ============================= */
+@media screen and (min-width: 1440px){
+  .hero-wrap {
+    width: 1440px;
+    height: 1093px;
+  }
+}
