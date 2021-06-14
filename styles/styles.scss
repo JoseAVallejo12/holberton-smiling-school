@@ -3,16 +3,27 @@
 
 .hero {
   height: 1383px;
-  background: #071629 url("../images/pic_1.jpg") no-repeat 65% 0;
-  background-size: 200%;
   font-size: 12px;
+  .hero-wrap input:checked + .hero-wrap-header .hero-wrap-link a {
+    height: 38px;
+    visibility: visible;
+    transition: all .1s ease;
+  }
   .hero-wrap-menu {
     position: absolute;
   }
+  .hero-wrap-link a {
+    height: 0;
+    visibility: hidden;
+    transition: all .1s ease;
+  }
 }
-.hero .hero-wrap input:checked + .hero-wrap-header .hero-wrap-link a {
-  display: none;
+
+.home-page {
+  background: #071629 url("../images/pic_1.jpg") no-repeat 60% 0;
+  background-size: 200%;
 }
+
 .test {
   width: 100vw;
   height: 300px;
@@ -23,7 +34,11 @@
   .hero {
     height: 1093px;
     background-size: cover;
+    .hero-wrap-link a {
+      visibility: visible;
+    }
   }
+
 }
 /* 1440px view break point
   ============================= */
