@@ -1,26 +1,41 @@
 @import "shared/reset-styles";
 @import "shared/variables";
 
-.hero-wrap {
+.hero {
   height: 1383px;
   background: #071629 url("../images/pic_1.jpg") no-repeat 65% 0;
   background-size: 200%;
+  font-size: 12px;
+  .hero-wrap-menu {
+    position: absolute;
+  }
 }
-
+.hero .hero-wrap input:checked + .hero-wrap-header .hero-wrap-link a {
+  display: none;
+}
+.test {
+  width: 100vw;
+  height: 300px;
+}
 /* 768px view break point
   ============================= */
 @media screen and (min-width: 768px) {
-  .hero-wrap {
+  .hero {
     height: 1093px;
     background-size: cover;
-
   }
 }
 /* 1440px view break point
   ============================= */
 @media screen and (min-width: 1440px){
-  .hero-wrap {
-    width: 1440px;
+  .hero {
     height: 1093px;
+    &-wrap {
+      max-width: 1440px;
+      &-header {
+        padding-left: 175px;
+        padding-right: 175px;
+      }
+    }
   }
 }
