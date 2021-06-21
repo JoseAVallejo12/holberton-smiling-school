@@ -76,6 +76,23 @@ body {
   background-size: 200%;
 }
 
+/* Carousel Section
+================================ */
+.carousel {
+  height: 591px;
+  .button-carousel {
+    background: transparent;
+    border: none;
+    &:hover > .carousel-button-icon {
+      visibility: visible;
+    }
+    .carousel-button-icon {
+      visibility: hidden;
+
+    }
+  }
+
+}
 /* 768px view break point
   ============================= */
 @media screen and (min-width: 768px) {
@@ -101,6 +118,9 @@ body {
       }
     }
 
+  }
+  .carousel {
+    height: 392px;
   }
 }
 
